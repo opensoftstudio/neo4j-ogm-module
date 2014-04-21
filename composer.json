@@ -3,17 +3,14 @@
     "description": "Zend Framework Factory Wrapper For Neo4jPHP OGM",
     "require": {
         "php": ">=5.3.3",
-        "everyman/neo4jphp": "dev-master",
-        "hirevoice/neo4jphp-ogm": "dev-master"
-     },
-     "require-dev": {
-        "php": ">=5.3.3",
         "zendframework/zendframework": "2.3.*",
         "doctrine/doctrine-orm-module": "0.*",
-     },
-     "autoload": {
-        "psr-0": {
-            "Neo4jOGMModule\\": "src/"
-        }
+        "everyman/neo4jphp": "dev-master",
+        "hirevoice/neo4jphp-ogm": "dev-master"
+    },
+    "autoload": {
+    	"psr-0": {
+    		"Neo4jOGMModule\\": "src/"
+    	}
     }
 }
