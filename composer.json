@@ -15,5 +15,5 @@
         "psr-0": {
             "Neo4jOGMModule\\": "src/"
         }
-    },
+    }
 }
