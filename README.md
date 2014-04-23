@@ -6,7 +6,7 @@ Intended for use with <a target="_blank" href="https://github.com/lphuberdeau/Ne
 
 Install with Composer, see [getcomposer.org](http://getcomposer.org/).  
 
-######composer.json
+<strong>composer.json</strong>
 ```json
 {
     "require": {
