@@ -1,4 +1,6 @@
-neo4j-ogm-module
+# Neo4jPHP OGM Module for Zend Framework 2
+
+Neo4jPHP OGM Module for Zend Framework 2
 ================
 
-Zend Framework Factory Wrapper For Neo4jPHP OGM
+
