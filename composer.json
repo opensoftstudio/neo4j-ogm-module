@@ -7,9 +7,10 @@
         "doctrine/doctrine-orm-module": "0.*",
         "hirevoice/neo4jphp-ogm": "dev-master"
     },
+    "minimum-stability": "dev",
     "autoload": {
-    	"psr-0": {
-    		"Neo4jOGMModule\\": "src/"
-    	}
+        "psr-0": {
+            "Neo4jOGMModule": "src/"
+        }
     }
 }
