@@ -56,9 +56,9 @@ return array(
                     'port' => 7474,
                     //'username' => null,
                     //'password' => null,
-                )
-            )
-        )
+                ),
+            ),
+        ),
     ),
 );
 ```
