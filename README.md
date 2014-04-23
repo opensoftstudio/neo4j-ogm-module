@@ -6,7 +6,7 @@ Intended for use with <a target="_blank" href="https://github.com/lphuberdeau/Ne
 
 Install with Composer, see [getcomposer.org](http://getcomposer.org/).  
 
-composer.json
+######composer.json
 ```json
 {
     "require": {
@@ -27,9 +27,7 @@ php composer.phar install
 Then add `DoctrineModule`, `DoctrineORMModule` and `Neo4jOGMModule` to your `config/application.config.php` and create directory
 `data/Neo4jOGMModule/Proxy` and make sure your application has write access to it.
 
-
-## Entity Manager settings
-
+#### Entity Manager settings
 To disable proxy regeneration on each request or to use a chached instance of doctrine's annotation reader, add to your `module/config/module.config.php`.  Neo4jOGMModule is deployed with proxy regeneration enabled and annotation reader disabled.
 
 ```php
@@ -38,18 +36,15 @@ return array(
     'neo4j' => array(
         'configuration' => array(
             'ogm_default' => array(
-                // 'proxy_dir' => 'false',
-                // 'debug' => false,
-                // 'annotation_reader' => true,
+                // 'debug' => true, // Force proxy regeneration on each request
+                // 'annotation_reader' => false,
             ),
         ),
     ),
 );
 ```
-
-## Connection settings
-
-Connection parameters to Neo4j database can be defined in your `config/autoload/local.php` configuration:
+#### Connection settings
+Connection parameters to your Neo4j database can be defined in your `config/autoload/local.php` configuration:
 
 ```php
 <?php
@@ -68,4 +63,11 @@ return array(
         )
     ),
 );
+```
+#### Service Locator
+To access the entity manager, use the main service locator:
+
+```php
+$em = $this->getServiceLocator()->get('neo4j.entitymanager.ogm_default');
+$em = $this->getServiceLocator()->get('Neo4j\OGM\EntityManager');
 ```
