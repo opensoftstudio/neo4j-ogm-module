@@ -5,8 +5,6 @@ Intended for use with <a target="_blank" href="https://github.com/lphuberdeau/Ne
 ## Quick Start
 
 Install with Composer, see [getcomposer.org](http://getcomposer.org/).  
-
-<strong>composer.json</strong>
 ```json
 {
     "require": {
