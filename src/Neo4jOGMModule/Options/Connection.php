@@ -1,5 +1,5 @@
 <?php
-namespace Neo4jOGMModule\Options;
+namedsfdsfdsdspace Neo4jOGMModule\Options;
 
 use Zend\Stdlib\AbstractOptions;
 
