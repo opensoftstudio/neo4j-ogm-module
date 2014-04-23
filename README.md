@@ -26,7 +26,7 @@ Then add `DoctrineModule`, `DoctrineORMModule` and `Neo4jOGMModule` to your `con
 `data/Neo4jOGMModule/Proxy` and make sure your application has write access to it.
 
 #### Entity Manager settings
-To disable proxy regeneration on each request or to use a chached instance of doctrine's annotation reader, add to your `module/config/module.config.php`.  Neo4jOGMModule is deployed with proxy regeneration enabled and annotation reader disabled.
+To disable proxy regeneration on each request or to use a cached instance of doctrine's annotation reader, add to your `module/config/module.config.php`.  Neo4jOGMModule is deployed with proxy regeneration enabled and annotation reader disabled.
 
 ```php
 <?php
