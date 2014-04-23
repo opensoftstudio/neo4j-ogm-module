@@ -32,7 +32,7 @@ To disable proxy regeneration on each request or to use a chached instance of do
 <?php
 return array(
     'neo4j' => array(
-        'configuration' => array(
+        'entitymanager' => array(
             'ogm_default' => array(
                 // 'debug' => true, // Force proxy regeneration on each request
                 // 'annotation_reader' => false,
