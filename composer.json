@@ -1,5 +1,5 @@
 {
-    "name": "opensoftstudio/neo4jogm-module",
+    "name": "opensoftstudio/neo4j-ogm-module",
     "description": "Zend Framework Factory Wrapper For Neo4jPHP OGM",
     "require": {
         "php": ">=5.3.3",
@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "Neo4jOGMModule": "src/"
+            "HireVoice": "src/"
         }
     }
 }
