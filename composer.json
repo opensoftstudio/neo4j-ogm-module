@@ -1,7 +1,7 @@
 {
     "name": "opensoftstudio/neo4j-ogm-module",
     "description": "Neo4jPHP OGM Module for Zend Framework 2",
-    "require": {
+    "require-dev": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.3.*",
         "doctrine/doctrine-orm-module": "0.*",
